@@ -9,6 +9,7 @@ public class EmployeeTest {
         Employee employee = new Employee("Bob", "Harry", birth, hire);
 
         System.out.println(employee);
+        System.out.println("This many employee has been created: " + Employee.getEmployeeCount());
 
     }
 }
